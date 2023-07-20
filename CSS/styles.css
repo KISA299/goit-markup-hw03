@@ -1,0 +1,173 @@
+body {
+    font-family: var(--primary-font);
+    color: var(--secondary-accent-color);
+    background-color: var(--primary-white-color);
+}
+
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    --primary-black-color: #2e2f42;
+    --primary-white-color: #ffffff;
+    --secondary-white-color: #F4F4FD;
+    --primary-accent-color: #4d5ae5;
+    --secondary-accent-color: #434455;
+    --active-link-color: #404bbf;
+}
+
+.logo {
+    font-family: var(--title-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--primary-accent-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logoback {
+    color: var(--primary-black-color);
+}
+
+.logo-back {
+    color: var(--secondary-white-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.menu {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+
+.menu:hover,
+.menu:focus {
+    color: var(--active-link-color);
+}
+
+.to-get-in-touch {
+    font-style: normal;
+}
+
+.maill {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-accent-color);
+}
+
+.maill:hover,
+.maill:focus {
+    color: var(--active-link-color);
+}
+
+.title {}
+
+.filter {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--primary-accent-color);
+    background-color: var(--secondary-white-color);
+    cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+    color: var(--primary-white-color);
+    background-color: var(--active-link-color);
+}
+
+.text-two {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+
+.text {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-accent-color);
+}
+
+.pagefooter {
+    background-color: var(--primary-black-color);
+}
+
+.text-footer {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-white-color);
+}
+
+.heading {
+    font-family: var(--primary-font);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-white-color);
+}
+
+.sec {
+    background-color: var(--primary-black-color);
+}
+
+.descrptn {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-black-color);
+}
+
+.team-sec {
+    background-color: var(--secondary-white-color);
+}
+
+.imgli {
+    background-color: var(--primary-white-color);
+}
+
+.ordr {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color);
+}
+
+.ordr:hover,
+.ordr:focus {
+    background-color: var(--active-link-color);
+}
