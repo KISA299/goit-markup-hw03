@@ -32,7 +32,7 @@ body {
     color: var(--primary-black-color);
 }
 .page-header {
- border-bottom: 1px solid var()
+ border-bottom: 1px solid var(--secondary-white-color)
 }
 
 .logo-back {
@@ -73,9 +73,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: flex;
-    gap: 40px;
     color: var(--secondary-accent-color);
 }
 
@@ -83,9 +80,6 @@ body {
 .maill:focus {
     color: var(--active-link-color);
 }
-
-.title {}
-
 .filter {
     font-family: var(--primary-font);
     font-size: 16px;
@@ -93,6 +87,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
+    padding: 12px 24px;
+    border: 1px solid var(--third-white-color);
+    border-radius: 4px;
+    margin: 0 auto;
     color: var(--primary-accent-color);
     background-color: var(--secondary-white-color);
     cursor: pointer;
@@ -102,6 +100,7 @@ body {
 .filter:focus {
     color: var(--primary-white-color);
     background-color: var(--active-link-color);
+    border: 1px solid transparent;
 }
 
 .text-two {
@@ -131,6 +130,7 @@ body {
 .pagefooter {
     padding: 100px 0;
     background-color: var(--primary-black-color);
+    margin-top: 120px;
 }
 
 .text-footer {
@@ -232,6 +232,7 @@ ul, h2, h3, p {
 .mnk {
     display: flex;
     gap: 40px;
+    padding-top: 25.5px;
     margin-left: 332px;
 }
 .sect {
@@ -311,5 +312,53 @@ ul, h2, h3, p {
             width: 264px;
             color: var(--secondary-accent-color);
         }
-       
-    
+        .mainn {
+            display: flex;
+        }
+            .visually-hidden {
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    margin: -1px;
+                    border: 0;
+                    padding: 0;
+                    white-space: nowrap;
+                    clip-path: inset(100%);
+                    clip: rect(0 0 0 0);
+                    overflow: hidden;
+        }
+       .btns {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 72px;
+        justify-content: center;
+        margin-top: 96px;
+       }
+       .card {
+        display: flex;
+        row-gap: 48px;
+        column-gap: 24px;
+        flex-wrap: wrap;
+       }
+       .pcards {
+        padding: 32px 16px;
+        border-top: none;
+        border: 1px solid var(--third-white-color);
+       }
+       .logofooter {
+        font-family: var(--title-font);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        margin-right: 76px;
+        color: var(--primary-accent-color);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        display: inline-block;
+       }
+        .pagemainfooter {
+          padding: 100px 0;
+           background-color: var(--primary-black-color);
+        }
