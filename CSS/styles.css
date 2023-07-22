@@ -217,6 +217,7 @@ body {
 img {
     display: block;
 }
+
 ul, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -314,6 +315,9 @@ ul, h2, h3, p {
         }
         .mainn {
             display: flex;
+            width: 1158px;
+            margin: 0 auto;
+            padding: 0 15px;
         }
             .visually-hidden {
                     position: absolute;
@@ -362,6 +366,4 @@ ul, h2, h3, p {
           padding: 100px 0;
            background-color: var(--primary-black-color);
         }
-        img {
-            display: block;
-        }
+        
