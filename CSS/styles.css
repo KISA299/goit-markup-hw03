@@ -362,3 +362,6 @@ ul, h2, h3, p {
           padding: 100px 0;
            background-color: var(--primary-black-color);
         }
+        img {
+            display: block;
+        }
